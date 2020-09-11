@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Controls\Api\ForAdmins.cs" />
+    <Content Remove="wwwroot\Controls\Api\Info.cs" />
+    <Content Remove="wwwroot\Controls\Api\LoginRegistration.cs" />
+    <Content Remove="wwwroot\Controls\Api\Translations.cs" />
+    <Content Remove="wwwroot\Controls\ControlApi.cs" />
+    <Content Remove="wwwroot\Controls\PageControls.cs" />
+    <Content Remove="wwwroot\Models\Cookies.cs" />
+    <Content Remove="wwwroot\Models\HTMLContructor.cs" />
+    <Content Remove="wwwroot\Models\Mail.cs" />
+    <Content Remove="wwwroot\Models\SQLITEMS\ForAdmins.cs" />
+    <Content Remove="wwwroot\Models\SQLITEMS\General.cs" />
+    <Content Remove="wwwroot\Models\SQLITEMS\Users.cs" />
+    <Content Remove="wwwroot\Models\SQLITEMS\Variables.cs" />
+    <Content Remove="wwwroot\Models\StaticFiles.cs" />
+    <Content Remove="wwwroot\Models\Tables.cs" />
+    <Content Remove="wwwroot\Models\UserProcesses.cs" />
+    <Content Remove="wwwroot\Models\Validation.cs" />
+    <Content Remove="wwwroot\Root.cs" />
+    <Content Remove="wwwroot\Tests\Tests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="wwwroot\Controls\Api\ForAdmins.cs" />
+    <Compile Include="wwwroot\Models\HTMLContructor.cs" />
+    <Compile Include="wwwroot\Models\SQLITEMS\Translations.cs" />
+    <Compile Include="wwwroot\Controls\Api\Info.cs" />
+    <Compile Include="wwwroot\Controls\Api\LoginRegistration.cs" />
+    <Compile Include="wwwroot\Controls\ControlApi.cs" />
+    <Compile Include="wwwroot\Controls\PageControls.cs" />
+    <Compile Include="wwwroot\Models\Cookies.cs" />
+    <Compile Include="wwwroot\Models\Mail.cs" />
+    <Compile Include="wwwroot\Models\SQLITEMS\ForAdmins.cs" />
+    <Compile Include="wwwroot\Models\SQLITEMS\Variables.cs" />
+    <Compile Include="wwwroot\Models\StaticFiles.cs" />
+    <Compile Include="wwwroot\Models\SQLITEMS\General.cs" />
+    <Compile Include="wwwroot\Models\SQLITEMS\Users.cs" />
+    <Compile Include="wwwroot\Models\Tables.cs" />
+    <Compile Include="wwwroot\Models\UserProcesses.cs" />
+    <Compile Include="wwwroot\Models\Validation.cs" />
+    <Compile Include="wwwroot\Root.cs" />
+    <Compile Include="wwwroot\Tests\Tests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Cahs\" />
+    <Folder Include="wwwroot\UnThemes\CSS\" />
+    <Folder Include="wwwroot\UnThemes\JS\" />
+  </ItemGroup>
+
+</Project>
